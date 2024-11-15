@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="es">
+    <head>
+        <title>EJERCICIO 13</title>
+        <link rel="icon" type="image/x-icon" href="ejercicio 5/lenguajesMarcas/imagenes/favicon.ico">
+    </head>
+    <body>
+        <h1 align="center">TELEBIRRIA</h1>
+        <h3 align="center">PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO:</h3>
+        <form>
+            <fieldset>
+                <legend><strong>Datos personales y de envío</strong></legend>
+                <label for="nom">Nombre</label>
+                <input type="text" id="nom" name="nom"><br>
+                <label for="ape">Apellidos</label>
+                <input type="text" id="ape" name="ape"><br>
+                <label for="domi">Domicilio</label>
+                <input type="text" id="domi" name="domi"><br>
+                <label for="local">Localidad</label>
+                <input type="text" id="local" name="local"><br>
+                <label for="codi">Código postal</label>
+                <input type="text" id="codi" name="codi"><br>
+                <label for="tlf">Teléfono</label>
+                <input type="text" id="tlf" name="tlf"><br>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Elija la opción de entrega</strong></legend>
+                <input type="radio" id="reco" name="entrega" value="recoger_local">
+                <label for="recoger_local">Recoger en el local</label><br>
+                <input type="radio" id="deli" name="entrega" value="hacer_delivery">
+                <label for="hacer_delivery">Enviar al domicilio</label>
+            </fieldset>
+            <fieldset>
+                <legend><strong>¿Quiere que le enviemos nuestras ofertas?</strong></legend>
+                <input type="checkbox" id="envi_correo" name="ofertas" value="envi_correo">
+                <label for="envi_correo">Enviar al correo</label><br>
+                <input type="checkbox" id="envi_email" name="ofertas" value="envi_email">
+                <label for="envi_email">Enviar al email</label>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Elija su menu</strong></legend>
+                    <label for="tamaño">Tamaño del bocadillo</label><br>
+                    <select id="tamaño" name="tam" size="4">
+                        <option value="pequeño">Pequeño</option>
+                        <option value="mediano">Mediano</option>
+                        <option value="grande">Grande</option>
+                        <option value="enorme">Enorme</option>
+                    </select><br>
+                    <label for="contenido">Contenido del bocadillo</label><br>
+                    <select id="contenido" name="content" size="4">
+                        <option value="anchoas">Anchoas</option>
+                        <option value="atun">Atún</option>
+                        <option value="calamares">Calamares</option>
+                        <option value="jamon">Jamón</option>
+                        <option value="pate">Paté</option>
+                        <option value="queso">Queso</option>
+                        <option value="salchichinas">Salchichinas</option>
+                        <option value="salchichon">Salchichon</option>
+                    </select><br>
+                    <label for="sugerencia">Puede añadir alguna sugerencia para el bocadillo:</label><br>
+                    <textarea name="request" rows="10" cols="69">Por ejemplo, que calienten el pan.</textarea>
+            </fieldset>
+            <input type="submit">
+        </form>
+    </body>
+</html>
