@@ -1,0 +1,13 @@
+p {
+    color: blue;
+    border: solid 3px;
+    border-color: black;
+    background-color: gray;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+#seis {
+    font-size: x-large;
+}
