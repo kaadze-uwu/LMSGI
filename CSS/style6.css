@@ -1,0 +1,17 @@
+#capauno {
+    border: solid;
+    border-color: black;
+    width: 50%;
+}
+#capados {
+    border: solid;
+    width: 33%;
+    border-color: red;
+    font-size: 120%;
+}
+#capatres  {
+    border: solid;
+    width: 25%;
+    border-color: blue;
+    font-size: 80%;
+}
