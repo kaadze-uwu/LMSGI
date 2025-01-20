@@ -1,0 +1,74 @@
+#contenedor {
+    background-color: rgb(253, 239, 135);
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+#SupI {
+    float: left;
+}
+
+#SupI h1 {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#SupI h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#SupD {
+    width: 50%;
+}
+
+#SupD label {
+    color: black;
+}
+
+#MedI {
+    float: left;
+    width: 40%;
+    padding-bottom: 5px;
+}
+
+#MedD {
+    float: right;
+    width: 60%;
+    height: 900px;
+    overflow: auto;
+}
+
+#pie {
+    clear: both;
+    width: 20%;
+    height: 20%;
+}
+
+.boton {
+    background-color: transparent;
+    color: red;
+    border-color: red;
+    border-style: solid;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    color:rgb(214, 35, 214);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    margin: auto;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif
+}

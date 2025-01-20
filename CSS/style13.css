@@ -1,0 +1,71 @@
+#contenedor {
+    padding: 0% 15% 15% 15%;
+}
+
+#cabecera {
+    background-color: crimson;
+    height: 50px;
+    width: 99.1%;
+    margin: top;
+    float: none;
+    padding-bottom: 25px;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+#titulo {
+    color: white;
+    font-family: Arial;
+}
+
+#menu {
+    background-color: rgb(231, 143, 255);
+    font-family: Arial;
+    list-style: none;
+    height: 50px;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+#menu li {
+    float: left;
+    padding: 10px;
+}
+
+#texto {
+    background-color: pink;
+    scrollbar-width: thin;
+    width: 89.5%;
+    height: 500px;
+    overflow: scroll;
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    padding: 0% 5%;
+    overflow: auto;
+}
+
+#imagentexto {
+    border: 2px;
+    border-style: solid;
+    float: left;
+}
+
+img {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+#pie {
+    background-color: lightgray;
+    clear: both;    
+    border: 3px;
+    border-color: white;
+    border-style: solid;
+    padding-left: 5%;
+    padding-right: 5%;    
+}

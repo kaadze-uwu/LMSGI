@@ -1,0 +1,63 @@
+#cabecera {
+    background-color: lightblue;
+    margin: top;
+    height: 120px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    padding: 20px 20px 0px 20px;
+}
+#logo {
+    width: 100px;
+    float: right;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+#titulo {
+    float: left;
+    border: 2px;
+    width: 400px;
+    border-style: solid;
+    border-color: white;
+    padding-left: 15px;
+}
+#logotipo {
+    float: right;
+}
+#content {
+    padding: 15px;
+}
+#enlaces {
+    background-color: rgb(255, 193, 226);
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+#texto1 {
+    background-color: aquamarine;
+    float: left;
+    width: 73%;
+    height: 900px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+}
+#texto2 {
+    background-color: peachpuff;
+    float: right;
+    width: 25%;
+    height: 900px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    overflow: auto;
+}
+#pie {
+    background-color: #949494;
+    width: 99.3%;
+    clear: both;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+}
